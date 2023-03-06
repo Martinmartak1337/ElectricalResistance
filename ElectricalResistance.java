@@ -1,7 +1,7 @@
 public class ElectricalResistance {
     public static void main(String[] args){
-        System.out.println(parallelElectricalResistance()); // <- Your doubles
-        System.out.println(serialElectricalResistance()); // <- Your doubles
+        System.out.println(parallelElectricalResistance()); // <- Your values
+        System.out.println(serialElectricalResistance()); // <- Your values
     }
     public static double parallelElectricalResistance(double... Resistance){
         int x = 0;
