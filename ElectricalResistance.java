@@ -11,7 +11,7 @@ public class ElectricalResistance {
             for(double i : Resistance){
                 resistance = 1/Resistance[(int) i]+resistance;
             }
-            return 1/resistance;
+            return 1/resistance; // 1/1/resistance
         }
     }
     public static double serialElectricalResistance(double... resistance){
