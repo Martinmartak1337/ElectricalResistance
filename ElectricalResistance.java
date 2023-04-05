@@ -17,7 +17,7 @@ public class ElectricalResistance {
     public static double serialElectricalResistance(double... resistance){
         double Resistance=0;
 
-        for (int i = 0; i < resistance.length; i++) {
+        for (int i = 0; i < resistance.length-1; i++) {
             Resistance = Resistance + resistance[i];
         }
         return Resistance;
