@@ -18,7 +18,7 @@ public class ElectricalResistance {
         double Resistance=0;
 
         for (int i = 0; i < resistance.length-1; i++) {
-            Resistance = Resistance + resistance[i];
+            Resistance += resistance[i];
         }
         return Resistance;
     }
