@@ -8,8 +8,9 @@ public class ElectricalResistance {
         if(Resistance.length == 2){
             return (Resistance[0]*Resistance[1])/(Resistance[0]+Resistance[1]);
         } else {
-            for(double i : Resistance){
-                 resistance += 1/Resistance[(int) i];
+            for(int i = 0; i <= Resistance.length-1; i++)
+            {
+                resistance += 1/Resistance[i];
             }
             return resistance/1;
         }
