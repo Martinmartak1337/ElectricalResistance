@@ -9,7 +9,7 @@ public class ElectricalResistance {
             return (Resistance[0]*Resistance[1])/(Resistance[0]+Resistance[1]);
         } else {
             for(double i : Resistance){
-                resistance = 1/Resistance[(int) i]+resistance;
+                 resistance += 1/Resistance[(int) i];
             }
             return resistance/1;
         }
